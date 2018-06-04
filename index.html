@@ -5,14 +5,17 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width">
   <title>NRK TV</title>
+  
   <style>
     .wrapper {
       width: 100%;
     }
 
+    /*
     #outlook a {
       padding: 0;
     }
+    */
 
     body {
       width: 100% !important;
@@ -977,7 +980,8 @@
     }
 
     @media only screen and (max-width: 596px) {
-      table.body table.container .show-for-large {
+      table.body table.container .show-for-large,
+      table.body .show-for-large {
         display: none !important;
         width: 0;
         mso-hide: all;
@@ -995,8 +999,7 @@
     h6,
     p,
     td,
-    th,
-    a {
+    th {
       color: #f0f0f0;
       font-family: Helvetica, Arial, sans-serif;
       font-weight: normal;
@@ -1080,20 +1083,20 @@
     }
 
     a {
-      color: #2199e8;
+      color: #66d1f2;
       text-decoration: none;
     }
 
     a:hover {
-      color: #147dc2;
+      color: #66d1f2;
     }
 
     a:active {
-      color: #147dc2;
+      color: #66d1f2;
     }
 
     a:visited {
-      color: #2199e8;
+      color: #66d1f2;
     }
 
     h1 a,
@@ -1267,14 +1270,14 @@
     table.button:hover table td,
     table.button:visited table td,
     table.button:active table td {
-      background: #147dc2;
+      background: #000000;
       color: #fefefe;
     }
 
     table.button:hover table a,
     table.button:visited table a,
     table.button:active table a {
-      border: 0 solid #147dc2;
+      border: 0 solid #66d1f2;
     }
 
     table.button.secondary table td {
@@ -1667,35 +1670,186 @@
         min-width: 0;
       }
     }
-  </style>
 
-  <style>
     body,
     html,
     .body {
       background: #0D1F29 !important;
     }
 
+    /* NRK TV overrides  */
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-weight: 800;
+    }
+
+    .plugtitle-large {
+      font-size: 28px;
+    }
+
+    .plugtitle-medium {
+      font-size: 24px;
+    }
+
+    .plugtitle-small {
+      font-size: 18px;
+    }
+
+    table.container.radius {
+      border-radius: 5px;
+    }
+
+    .radius-top {
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+
+    table.button {
+      display: inline-block;
+    }
+
+    table.button table td {
+      color: #fefefe;
+      background: #000000;
+      border: 1px solid #666666;
+    }
+
+    .simplebutton {
+      border:1px solid #666;
+      color:#fff;
+      display:inline-block;
+      line-height:44px;
+      text-align:center;
+      padding-left:20px;
+      padding-right:20px;
+      border-radius:50px;
+      height:44px;
+      vertical-align:middle;
+    }
+
+    div.simplebutton>a {
+      display: inline-block;
+      padding-top:10px;
+      padding-bottom:10px;
+      margin-top:10px;
+    }
+
+    .quote-container {
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    table.quote-container {
+      background-color: #191919;
+      border-radius: 6px;
+    }
+
+    .quote-container td {
+      padding: 12px 12px 6px 12px;
+    }
+
+    .quote-container img {
+      margin-top: -12px;
+    }
+
+    td.quote-die-container {
+      vertical-align: middle;
+      padding-right: 16px;
+    }
+
+    td.quote-die-container {
+      padding-left: 16px;
+    }
+
+    .quote-text--die {
+      vertical-align: middle;
+      text-indent: -0.5rem;
+      font-size: 0.85rem;
+      color: #bebebe;
+      font-style: italic;
+      margin-right: 10px;
+      margin-left: -10px;
+    }
+
+    .quote-text {
+      vertical-align: middle;
+      font-size: 0.85rem;
+      color: #bebebe;
+      font-style: italic;
+      margin-right: 10px;
+      margin-left: 4px;
+    }
+
+    .quote-source {
+      font-size: 0.6rem;
+      text-align: center;
+    }
+
+    .extra-right-padding {
+      padding-right: 24px!important;
+    }
+
+    .poster-row img {
+      display: inline-block;
+    }
+    
+    .poster-block {
+      display: inline-block;
+    }
+
+    table.container--transparent {
+      background: none!important;
+    }
+
+    @media only screen and (max-width: 596px) {
+
+      table.body th.reduced-padding-right-for-mobile {
+        padding-right: 8px !important;
+      }
+
+      table.body th.reduced-padding-left-for-mobile {
+        padding-left: 8px !important;
+      }
+      
+      table.body th.extra-padding-left-for-mobile {
+        padding-left: 38px !important;
+      }
+
+      table.body th.extra-padding-right-for-mobile {
+        padding-right: 38px !important;
+      }
+      
+
+    }
+
+
+    /* Borders for debugging  */
     .columns {
       border: 1px rgba(33, 153, 232, 0) solid;
     }
   </style>
-
 </head>
 
 <body>
   <!-- <style> -->
-  <table class="body" data-made-with-foundation="">
+  <table class="body">
     <tr>
       <td class="float-center" align="center" valign="top">
-        <center data-parsed="">
-          <table>
+        <center>
+
+          <!-- Spacer above header -->
+          <table align="center" class="float-center">
             <tr>
               <td>
                 <table class="spacer float-center">
                   <tbody>
                     <tr>
-                      <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
+                      <td height="16px" style="font-size:16px;line-height:16px;"></td>
                     </tr>
                   </tbody>
                 </table>
@@ -1703,6 +1857,7 @@
             </tr>
           </table>
 
+          <!-- Header -->
           <table align="center" class="header float-center">
             <tbody>
               <tr>
@@ -1710,16 +1865,16 @@
                   <table class="row">
                     <tbody>
                       <tr>
-                        <th class="small-4 large-4 columns" valign="middle">
+                        <th class="small-3 large-4 columns" valign="middle">
                           <table>
                             <tr>
-                              <th>
-                                <span>Hei Jørgen</span>
+                              <th class="show-for-large">
+                                <span mc:edit="recipientfname">Hei *|FNAME|*</span>
                               </th>
                             </tr>
                           </table>
                         </th>
-                        <th class="small-4 large-4 columns">
+                        <th class="small-6 large-4 columns">
                           <table>
                             <tr>
                               <td>
@@ -1731,11 +1886,11 @@
                             </tr>
                           </table>
                         </th>
-                        <th class="small-4 large-4 columns" valign="middle">
+                        <th class="small-3 large-4 columns" valign="middle">
                           <table>
                             <tr>
-                              <td class="text-right">
-                                  <span>Ostekake</span>
+                              <td class="text-right show-for-large">
+                                <span>Ostekake 🏋️️</span>
                               </td>
                             </tr>
                           </table>
@@ -1748,230 +1903,138 @@
             </tbody>
           </table>
 
-
-          <table align="center" class="container float-center">
+          <!-- Plug Large -->
+          <table align="center" class="container radius float-center">
             <tbody>
               <tr>
                 <td>
-                  <table class="row">
+                  <table class="row collapse">
                     <tbody>
                       <tr>
-                        <th class="small-12 large-4 columns first">
+                        <th class="small-12 large-12 columns">
                           <table>
                             <tr>
                               <th>
-                                <center data-parsed="">
-                                  <img src="http://placehold.it/125x200" align="center" class="float-center"> </center>
-                              </th>
-                            </tr>
-                          </table>
-                        </th>
-                        <th class="small-12 large-8 columns last">
-                          <table>
-                            <tr>
-                              <th>
-                                <h1>Dette er nye forenklede NRK TV nyhetsbrev.</h1>
-                                <table class="button large">
-                                  <tr>
-                                    <td>
-                                      <table>
-                                        <tr>
-                                          <td>
-                                            <a href="#">Sign Up</a>
-                                          </td>
-                                        </tr>
-                                      </table>
-                                    </td>
-                                  </tr>
-                                </table>
-                              </th>
-                            </tr>
-                          </table>
-                        </th>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <table class="spacer">
-                    <tbody>
-                      <tr>
-                        <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <table class="row">
-                    <tbody>
-                      <tr>
-                        <th class="small-12 large-12 columns first last">
-                          <table>
-                            <tr>
-                              <th>
-                                <h3 class="text-center">Nå uten dependencies og byggesteg.</h3>
-                                <p class="text-center">Hent bit for bit av HTML'en fra de nyeste malene. Dropp alt av webfonts. Forenkle alt veldig.</p>
-                              </th>
-                              <th class="expander"></th>
-                            </tr>
-                          </table>
-                        </th>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <table class="row">
-                    <tbody>
-                      <tr>
-                        <th class="small-12 large-4 columns first">
-                          <table>
-                            <tr>
-                              <th>
-                                <center data-parsed="">
-                                  <img src="http://placehold.it/50x50" align="center" class="float-center"> </center>
-                                <h5 class="text-center">Feature One</h5>
-                                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, quod quam unde earum.</p>
-                              </th>
-                            </tr>
-                          </table>
-                        </th>
-                        <th class="small-12 large-4 columns">
-                          <table>
-                            <tr>
-                              <th>
-                                <center data-parsed="">
-                                  <img src="http://placehold.it/50x50" align="center" class="float-center"> </center>
-                                <h5 class="text-center">Feature Two</h5>
-                                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, quod quam unde earum.</p>
-                              </th>
-                            </tr>
-                          </table>
-                        </th>
-                        <th class="small-12 large-4 columns last">
-                          <table>
-                            <tr>
-                              <th>
-                                <center data-parsed="">
-                                  <img src="http://placehold.it/50x50" align="center" class="float-center"> </center>
-                                <h5 class="text-center">Feature Three</h5>
-                                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, quod quam unde earum.</p>
-                              </th>
-                            </tr>
-                          </table>
-                        </th>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <table class="spacer">
-                    <tbody>
-                      <tr>
-                        <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <table class="row">
-                    <tbody>
-                      <tr>
-                        <th class="small-12 large-12 columns first last">
-                          <table>
-                            <tr>
-                              <th>
-                                <h3 class="text-center">What Are You Waiting For? Get Started Today.</h3>
-                                <table class="spacer">
-                                  <tbody>
-                                    <tr>
-                                      <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
-                                    </tr>
-                                  </tbody>
-                                </table>
-                                <table class="button large expand">
-                                  <tr>
-                                    <td>
-                                      <table>
-                                        <tr>
-                                          <td>
-                                            <center data-parsed="">
-                                              <a href="#" align="center" class="float-center">Sign Up</a>
-                                            </center>
-                                          </td>
-                                        </tr>
-                                      </table>
-                                    </td>
-                                    <td class="expander"></td>
-                                  </tr>
-                                </table>
-                              </th>
-                              <th class="expander"></th>
-                            </tr>
-                          </table>
-                        </th>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <table class="row collapsed footer">
-                    <tbody>
-                      <tr>
-                        <th class="small-12 large-12 columns first last">
-                          <table>
-                            <tr>
-                              <th>
-                                <table class="spacer">
-                                  <tbody>
-                                    <tr>
-                                      <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
-                                    </tr>
-                                  </tbody>
-                                </table>
-                                <p class="text-center">@copywrite nobody
-                                  <br>
-                                  <a href="#">hello@nocopywrite.com</a> |
-                                  <a href="#">Manage Email Notifications</a> |
-                                  <a href="#">Unsubscribe</a>
-                                </p>
-                                <center data-parsed="">
-                                  <table align="center" class="menu float-center">
-                                    <tr>
-                                      <td>
-                                        <table>
-                                          <tr>
-                                            <th class="menu-item float-center">
-                                              <a href="undefined">
-                                                <img src="http://placehold.it/25" alt="">
-                                              </a>
-                                            </th>
-                                            <th class="menu-item float-center">
-                                              <a href="undefined">
-                                                <img src="http://placehold.it/25" alt="">
-                                              </a>
-                                            </th>
-                                            <th class="menu-item float-center">
-                                              <a href="undefined">
-                                                <img src="http://placehold.it/25" alt="">
-                                              </a>
-                                            </th>
-                                            <th class="menu-item float-center">
-                                              <a href="undefined">
-                                                <img src="http://placehold.it/25" alt="">
-                                              </a>
-                                            </th>
-                                            <th class="menu-item float-center">
-                                              <a href="undefined">
-                                                <img src="http://placehold.it/25" alt="">
-                                              </a>
-                                            </th>
-                                          </tr>
-                                        </table>
-                                      </td>
-                                    </tr>
-                                  </table>
+                                <center>
+                                  <img mc:edit="pluglarge_image" src="http://placehold.it/580x320" align="center" class="float-center radius-top">
                                 </center>
                               </th>
-                              <th class="expander"></th>
                             </tr>
                           </table>
                         </th>
                       </tr>
                     </tbody>
                   </table>
+                  <!-- Row of title -->
+                  <table class="row">
+                    <tbody>
+                      <tr>
+                        <th class="large-2 columns show-for-large">
+                        </th>
+                        <th class="small-12 large-8 columns extra-padding-left-for-mobile extra-padding-right-for-mobile">
+                          <table>
+                            <tr>
+                              <th>
+                                <h1 mc:edit="pluglarge_title" class="text-center plugtitle-large">Du vil ikke tro hvor noen faktisk kan bo</h1>
+                                <p class="text-center" mc:edit="pluglarge_text">This will be the body text of this plug. This will be the body text of this plug. This will
+                                  be the body text of this plug.</p>
+                                <table class="spacer">
+                                  <tbody>
+                                    <tr>
+                                      <td height="8px" style="font-size:8px;line-height:8px;"></td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                <table>
+                                  <tr>
+                                    <td style="text-align: right;">
+                                      <span mc:hideable mc:edit="teaser1_simplebutton1" class="simplebutton float-center" align="center">
+                                        <a href="#">Se nå</a>
+                                      </span>
+                                    </td>
+                                    <td>
+                                      &nbsp;
+                                    </td>
+                                    <td>
+                                      <span mc:hideable mc:edit="teaser1_simplebutton2" class="simplebutton float-center" align="center">
+                                        <a href="#">Trailer</a>
+                                      </span>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </th>
+                            </tr>
+                          </table>
+                        </th>
+                        <th class="large-2 columns show-for-large">
+                        </th>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <!-- Row of one raving review -->
+                  <table class="row" mc:repeatable>
+                    <tbody>
+                      <tr>
+                        <th class="large-1 columns show-for-large"></th>
+                        <th class="small-12 large-10 columns">
+                          <!-- Die face and quote -->
+                          <table class="container quote-container">
+                            <tr>
+                              <td width="30px" valign="middle" class="quote-die-container">
+                                <img mc:edit="terningkast" src="http://thegoldengod.westeurope.cloudapp.azure.com/nyhetsbrev/img/terning-6.png" alt="Terningkast 6"
+                                  width="30" height="30" />
+                              </td>
+                              <td valign="middle">
+                                <p class="quote-text--die" mc:edit="review-quote">
+                                  «Dette var bra saker. Bra jobba folkens. God serie. Godt arbeid. Veldig spennende. Dette er en placeholder tekst.»
+                                  <br>
+                                  <span class="quote-source">
+                                    Fiskeposten
+                                  </span>
+                                </p>
+                              </td>
+                            </tr>
+                          </table>
+                        </th>
+                        <th class="large-1 columns show-for-large" valign="middle">
+                        </th>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <!-- Row of one review no die -->
+                  <table class="row" mc:hideable mc:repeatable>
+                    <tbody>
+                      <tr>
+                        <th class="large-1 columns show-for-large"></th>
+                        <th class="small-12 large-10 columns">
+                          <!-- Die face and quote -->
+                          <table class="container quote-container">
+                            <tr>
+                              <td valign="middle">
+                                <p class="quote-text" mc:edit="review-quote-nodie">
+                                  «Dette var bra saker. Bra jobba folkens. God serie. Godt arbeid. Veldig spennende. Dette er en placeholder tekst.»
+                                  <br>
+                                  <span class="quote-source">
+                                    Fiskeposten
+                                  </span>
+                                </p>
+                              </td>
+                            </tr>
+                          </table>
+                        </th>
+                        <th class="large-1 columns show-for-large" valign="middle">
+                        </th>
+                      </tr>
+                    </tbody>
+                  </table>
+
+
                   <table class="spacer">
                     <tbody>
                       <tr>
-                        <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
+                        <td height="16px" style="font-size:16px;line-height:16px;">&nbsp;</td>
                       </tr>
                     </tbody>
                   </table>
@@ -1979,6 +2042,184 @@
               </tr>
             </tbody>
           </table>
+
+        <!-- Spacer 20px -->
+        <table class="spacer">
+            <tbody>
+              <tr>
+                <td height="20px" style="font-size:16px;line-height:20px;">&nbsp;</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- Text Section -->
+          <table align="center" class="container container--transparent">
+              <tbody>
+                <tr>
+                  <td>
+                    <table class="row">
+                      <tbody>
+                        <tr>
+                          <th class="small-12 first last columns">
+                            <p class="text-center">Her kan det stå en tekst eller mellomtittel</p>
+                          </th>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+          <!-- Plug Sideways Poster -->
+          <table align="center" class="container float-center radius">
+            <tbody>
+              <tr>
+                <td>
+                  <table class="spacer">
+                    <tbody>
+                      <tr>
+                        <td height="16px" style="font-size:16px;line-height:16px;">&nbsp;</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table class="row">
+                    <tbody>
+                      <tr>
+                        <th class="small-4 large-4 columns reduced-padding-right-for-mobile">
+                          <table>
+                            <tr>
+                              <th>
+                                <center>
+                                  <img mc:edit="sideways_poster" src="http://placehold.it/167x250" align="center" class="float-center">
+                                </center>
+                              </th>
+                            </tr>
+                          </table>
+                        </th>
+                        <th class="small-8 large-8 columns last reduced-padding-left-for-mobile">
+                          <table>
+                            <tr>
+                              <th class="extra-right-padding">
+                                <h2 class="plugtitle-medium" mc:edit="sideways_title">Du vil ikke tro hvor sideveis noen kan bo</h2>
+                                <p mc:edit="sideways_text">This will be the body text of this plug. This will be the body text of this plug. This will
+                                  be the body text of this plug.</p>
+                                <table class="spacer">
+                                  <tbody>
+                                    <tr>
+                                      <td height="8px" style="font-size:8px;line-height:8px;"></td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                <span mc:hideable mc:edit="sideways_simplebutton1" class="simplebutton float-center" align="center">
+                                  <a href="#">Se nå</a>
+                                </span>
+                              </th>
+                            </tr>
+                          </table>
+                        </th>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+        <!-- Spacer 20px -->
+        <table class="spacer">
+            <tbody>
+              <tr>
+                <td height="20px" style="font-size:16px;line-height:20px;">&nbsp;</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- Plug Sideways Landscape -->
+          <table align="center" class="container float-center radius">
+            <tbody>
+              <tr>
+                <td>
+                  <table class="spacer">
+                    <tbody>
+                      <tr>
+                        <td height="16px" style="font-size:16px;line-height:16px;">&nbsp;</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table class="row">
+                    <tbody>
+                      <tr>
+                        <th class="small-4 large-4 columns reduced-padding-right-for-mobile">
+                          <table>
+                            <tr>
+                              <th>
+                                <center>
+                                  <img mc:edit="sideways_landscape" src="http://placehold.it/167x94" align="center" class="float-center"> </center>
+                              </th>
+                            </tr>
+                          </table>
+                        </th>
+                        <th class="small-8 large-8 columns last reduced-padding-left-for-mobile">
+                          <table>
+                            <tr>
+                              <th class="extra-right-padding">
+                                <h3 class="plugtitle-small" mc:edit="sideways_landscape_title">Du vil ikke tro hva som kommer</h3>
+                                <p mc:edit="sideways_landscape_text">This will be the body text of this plug. This will be the body text of this plug. This will
+                                  be the body text of this plug.</p>
+                              </th>
+                            </tr>
+                          </table>
+                        </th>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- Spacer 20px -->
+          <table class="spacer">
+            <tbody>
+              <tr>
+                <td height="20px" style="font-size:16px;line-height:20px;">&nbsp;</td>
+              </tr>
+            </tbody>
+          </table>
+
+
+          <!-- Plug 4 Posters -->
+          <table align="center" class="float-center">
+            <tbody>
+              <tr>
+                <td>
+
+                  <table class="row">
+                    <tbody>
+                      <tr>
+                        <th class="small-6 large-3 columns poster-row reduced-padding-right-for-mobile text-right" valign="middle">
+                          <img mc:edit="sideways_poster" src="http://placehold.it/180x270" align="center" class="float-center">
+                        </th>
+                        <th class="small-6 large-3 columns poster-row reduced-padding-left-for-mobile" valign="middle">
+                          <img mc:edit="sideways_poster" src="http://placehold.it/180x270" align="center" class="float-center">
+                        </th>
+                        <th class="small-6 large-3 columns poster-row text-right reduced-padding-right-for-mobile" valign="middle">
+                          <img mc:edit="sideways_poster" src="http://placehold.it/180x270" align="center" class="float-center">
+                        </th>
+                        <th class="small-6 large-3 columns poster-row reduced-padding-left-for-mobile" valign="middle">
+                          <img mc:edit="sideways_poster" src="http://placehold.it/180x270" align="center" class="float-center">
+                        </th>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+
 
         </center>
       </td>
