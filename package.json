@@ -1,0 +1,28 @@
+{
+  "name": "nrktv-nyhetsbrev",
+  "version": "1.0.0",
+  "description": "Nyhetsbrev for NRK TV basert på Foundation",
+  "main": "index.html",
+  "scripts": {
+    "start": "browser-sync start --server --files '*.*, **/*.css, **/*.html, **/*.js' --port 7777"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgeneidem/nrktv-nyhetsbrev.git"
+  },
+  "keywords": [
+    "newsletter",
+    "html",
+    "css",
+    "foundation"
+  ],
+  "author": "Jørgen Eidem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jorgeneidem/nrktv-nyhetsbrev/issues"
+  },
+  "homepage": "https://github.com/jorgeneidem/nrktv-nyhetsbrev#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.4"
+  }
+}
