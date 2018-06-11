@@ -4,7 +4,7 @@
   "description": "Nyhetsbrev for NRK TV basert på Foundation",
   "main": "index.html",
   "scripts": {
-    "start": "browser-sync start --server --files '*.*, **/*.css, **/*.html, **/*.js' --port 7777"
+    "start": "browser-sync start --server --files --directory '*.*, **/*.css, **/*.html, **/*.js' --port 7777"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/jorgeneidem/nrktv-nyhetsbrev#readme",
   "devDependencies": {
-    "browser-sync": "^2.24.4"
-  }
+    "browser-sync": "^2.24.4",
+    "handlebars": "^4.0.11"
+  },
+  "dependencies": {}
 }
