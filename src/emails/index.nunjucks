@@ -1,0 +1,10 @@
+{% include "partials/header.nunjucks" %}
+
+{% include "partials/plug-large.nunjucks" %}
+
+{% include "partials/text.nunjucks" %}
+
+{% include "partials/posters-4x.nunjucks" %}
+
+{% include "partials/footer.nunjucks" %}
+
