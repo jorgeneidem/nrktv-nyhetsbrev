@@ -1,6 +1,5 @@
-<!-- Plug Large With Reviews -->
 <table mc:repeatable mc:hideable><tr><td>
-  <table align="center" class="container radius float-center">
+  <table align="center" class="container container--black radius float-center">
     <tbody>
       <tr>
         <td>
@@ -21,7 +20,7 @@
               </tr>
             </tbody>
           </table>
-          <!-- Row of title -->
+          
           <table class="row">
             <tbody>
               <tr>
@@ -59,13 +58,12 @@
             </tbody>
           </table>
   
-          <!-- Row of one raving review -->
           <table class="row" mc:repeatable>
             <tbody>
               <tr>
                 <th class="large-1 columns show-for-large"></th>
                 <th class="small-12 large-10 columns">
-                  <!-- Die face and quote -->
+
                   <table class="container quote-container">
                     <tr>
                       <td width="30px" valign="middle" class="quote-die-container">
@@ -90,13 +88,12 @@
             </tbody>
           </table>
   
-          <!-- Row of one review no die -->
           <table class="row" mc:hideable mc:repeatable>
             <tbody>
               <tr>
                 <th class="large-1 columns show-for-large"></th>
                 <th class="small-12 large-10 columns">
-                  <!-- Die face and quote -->
+                  
                   <table class="container quote-container">
                     <tr>
                       <td valign="middle">
@@ -130,4 +127,3 @@
     </table>
   
   </td></tr></table>
-  <!-- END Plug Large With Reviews -->

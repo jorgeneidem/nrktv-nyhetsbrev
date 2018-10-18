@@ -47,4 +47,4 @@ gulp.task('watch', function() {
     gulp.watch(filesToWatch,['nunjucks']); 
 });
 
-gulp.task('default', ['connect', 'nunjucks', 'inlinecss', 'watch']);
+gulp.task('default', ['connect', 'nunjucks', 'watch']);

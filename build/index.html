@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" style="background: #0D1F29 !important;">
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -72,8 +72,8 @@
   }
 
   p {
-    margin: 0 0 0 10px;
-    Margin: 0 0 0 10px;
+    margin: 0;
+    Margin: 0;
   }
 
   table {
@@ -111,11 +111,37 @@
   }
 
   table.container {
-    background: #000000;
     width: 580px;
     margin: 0 auto;
     Margin: 0 auto;
     text-align: inherit;
+  }
+
+  table.container--transparent {
+    background: #0D1F29;
+  }
+  
+  table.container--black {
+    background: #000000;
+  }
+
+  table.container--white {
+    background: #f9f9f9;
+  }
+
+  .black-text {
+    color: #111111;
+  }
+
+  .bold-text {
+    font-weight: 800;
+  }
+
+  .dm-text-area div {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.6;
   }
 
   table.row {
@@ -1021,8 +1047,8 @@
     word-wrap: normal;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: normal;
-    margin-bottom: 10px;
-    Margin-bottom: 10px;
+    margin-bottom: 4px;
+    Margin-bottom: 4px;
   }
 
   h1 {
@@ -1059,8 +1085,8 @@
   }
 
   p {
-    margin-bottom: 10px;
-    Margin-bottom: 10px;
+    margin-bottom: 4px;
+    Margin-bottom: 4px;
   }
 
   p.lead {
@@ -1808,7 +1834,7 @@
     text-align: center;
   }
 
-  .extra-right-padding {
+  .extra-right-padding--disabled {
     padding-right: 24px!important;
   }
 
@@ -1820,10 +1846,6 @@
     display: inline-block;
   }
 
-  table.container--transparent {
-    background: none!important;
-  }
-
   .nrktv-footer {
     font-size: 13px;
   }
@@ -1831,41 +1853,39 @@
   @media only screen and (max-width: 596px) {
 
     table.body th.reduced-padding-right-for-mobile {
-      padding-right: 8px !important;
+      padding-right: 6px !important;
     }
 
     table.body th.reduced-padding-left-for-mobile {
-      padding-left: 8px !important;
+      padding-left: 6px !important;
     }
     
     table.body th.extra-padding-left-for-mobile {
-      padding-left: 38px !important;
+      padding-left: 28px !important;
     }
 
     table.body th.extra-padding-right-for-mobile {
-      padding-right: 38px !important;
+      padding-right: 28px !important;
     }
   }
   </style>
 
 
 </head>
-<body bgcolor="#0D1F29" style="-moz-box-sizing: border-box; -ms-text-size-adjust: 100%; -webkit-box-sizing: border-box; -webkit-text-size-adjust: 100%; Margin: 0; background: #0D1F29 !important; box-sizing: border-box; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0; min-width: 100%; padding: 0; text-align: left; width: 100% !important;">
+<body bgcolor="#0D1F29">
   
-  <table class="body" style="Margin: 0; background: #0D1F29 !important; border-collapse: collapse; border-spacing: 0; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; height: 100%; line-height: 1.3; margin: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
-    <tr style="padding: 0; text-align: left; vertical-align: top;">
-      <td class="float-center" align="center" valign="top" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0 auto; border-collapse: collapse !important; color: #f0f0f0; float: none; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; hyphens: auto; line-height: 1.3; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; word-wrap: break-word;">
-        <center style="min-width: 580px; width: 100%;">
-          <!-- START main content -->
+  <table class="body">
+    <tr>
+      <td class="float-center" align="center" valign="top">
+        <center>
 
-          <!-- Header Spacer -->
-          <table align="center" class="float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top;">
-            <tr style="padding: 0; text-align: left; vertical-align: top;">
-              <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; hyphens: auto; line-height: 1.3; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
-                <table class="spacer float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 100%;">
+          <table align="center" class="float-center">
+            <tr>
+              <td>
+                <table class="spacer float-center">
                   <tbody>
-                    <tr style="padding: 0; text-align: left; vertical-align: top;">
-                      <td height="16px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; hyphens: auto; line-height: 16px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"></td>
+                    <tr>
+                      <td height="16px" style="font-size:16px;line-height:16px;"></td>
                     </tr>
                   </tbody>
                 </table>
@@ -1873,38 +1893,38 @@
             </tr>
           </table>
 
-          <!-- Header -->
-          <table align="center" class="header float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top;">
+          <table align="center" class="header float-center">
             <tbody>
-              <tr style="padding: 0; text-align: left; vertical-align: top;">
-                <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; hyphens: auto; line-height: 1.3; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
-                  <table class="row" style="border-collapse: collapse; border-spacing: 0; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;">
+              <tr>
+                <td>
+                  <table class="row">
                     <tbody>
-                      <tr style="padding: 0; text-align: left; vertical-align: top;">
-                        <th class="small-3 large-4 columns" valign="middle" style="Margin: 0 auto; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 8px; padding-right: 8px; text-align: left; width: 177.33333px;">
-                          <table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
-                            <tr style="padding: 0; text-align: left; vertical-align: top;">
-                              <th class="show-for-large" style="Margin: 0; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0; padding: 0; text-align: left;">
+                      <tr>
+                        <th class="small-3 large-4 columns" valign="middle">
+                          <table>
+                            <tr>
+                              <td class="show-for-large">
                                 <span mc:edit="recipientfname">Hei *|FNAME|*</span>
-                              </th>
+                              </td>
                             </tr>
                           </table>
                         </th>
-                        <th class="small-6 large-4 columns" style="Margin: 0 auto; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 8px; padding-right: 8px; text-align: left; width: 177.33333px;">
-                          <table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
-                            <tr style="padding: 0; text-align: left; vertical-align: top;">
-                              <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; hyphens: auto; line-height: 1.3; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
-                                <center style="min-width: 145.33333px; width: 100%;">
-                                  <img src="http://thegoldengod.westeurope.cloudapp.azure.com/nyhetsbrev/img/nrklogo-header@2x.png" height="32" width="115" alt="NRK TV logo" align="center" class="float-center" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: block; float: none; margin: 0 auto; max-width: 100%; outline: none; text-align: center; text-decoration: none; width: auto;">
+                        <th class="small-6 large-4 columns">
+                          <table>
+                            <tr>
+                              <td>
+                                <center>
+                                  <img src="http://thegoldengod.westeurope.cloudapp.azure.com/nyhetsbrev/img/nrklogo-header@2x.png" height="32" width="115"
+                                    alt="NRK TV logo" align="center" class="float-center">
                                 </center>
                               </td>
                             </tr>
                           </table>
                         </th>
-                        <th class="small-3 large-4 columns" valign="middle" style="Margin: 0 auto; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 8px; padding-right: 8px; text-align: left; width: 177.33333px;">
-                          <table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
-                            <tr style="padding: 0; text-align: left; vertical-align: top;">
-                              <td class="text-right show-for-large" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; hyphens: auto; line-height: 1.3; margin: 0; padding: 0; text-align: right; vertical-align: top; word-wrap: break-word;">
+                        <th class="small-3 large-4 columns" valign="middle">
+                          <table>
+                            <tr>
+                              <td class="text-right show-for-large">
                                 <span mc:edit="intro">Tekst og emoji</span>
                               </td>
                             </tr>
@@ -1918,23 +1938,22 @@
             </tbody>
           </table>
 
-<!-- Plug large -->
-          <table mc:repeatable="" mc:hideable="" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;">
-            <tr style="padding: 0; text-align: left; vertical-align: top;">
-              <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; hyphens: auto; line-height: 1.3; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
-                <table align="center" class="container radius float-center" style="Margin: 0 auto; background: #000000; border-collapse: separate; border-radius: 5px; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 580px;">
+          <table mc:repeatable mc:hideable>
+            <tr>
+              <td>
+                <table align="center" class="container container--black radius float-center">
                   <tbody>
-                    <tr style="padding: 0; text-align: left; vertical-align: top;">
-                      <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; hyphens: auto; line-height: 1.3; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
-                        <table class="row collapse" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;">
+                    <tr>
+                      <td>
+                        <table class="row collapse">
                           <tbody>
-                            <tr style="padding: 0; text-align: left; vertical-align: top;">
-                              <th class="small-12 large-12 columns" style="Margin: 0 auto; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 0; padding-right: 0; text-align: left; width: 580px;">
-                                <table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
-                                  <tr style="padding: 0; text-align: left; vertical-align: top;">
-                                    <th style="Margin: 0; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0; padding: 0; text-align: left;">
-                                      <center style="min-width: 532px; width: 100%;">
-                                        <img mc:edit="pluglarge2_image" src="http://placehold.it/580x320" align="center" class="float-center radius-top" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; border-top-left-radius: 5px; border-top-right-radius: 5px; clear: both; display: block; float: none; margin: 0 auto; max-width: 100%; outline: none; text-align: center; text-decoration: none; width: auto;">
+                            <tr>
+                              <th class="small-12 large-12 columns">
+                                <table>
+                                  <tr>
+                                    <th>
+                                      <center>
+                                        <img mc:edit="pluglarge2_image" src="http://placehold.it/580x320" align="center" class="float-center radius-top">
                                       </center>
                                     </th>
                                   </tr>
@@ -1943,41 +1962,50 @@
                             </tr>
                           </tbody>
                         </table>
-                        <!-- Row of title -->
-                        <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;">
+                        
+                        <table class="row">
                           <tbody>
-                            <tr style="padding: 0; text-align: left; vertical-align: top;">
-                              <th class="large-2 columns show-for-large" style="Margin: 0 auto; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 8px; padding-right: 8px; text-align: left; width: 80.66667px;">
+                            <tr>
+                              <th class="large-2 columns show-for-large">
                               </th>
-                              <th class="small-12 large-8 columns extra-padding-left-for-mobile extra-padding-right-for-mobile" style="Margin: 0 auto; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 8px; padding-right: 8px; text-align: left; width: 370.66667px;">
-                                <table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
-                                  <tr style="padding: 0; text-align: left; vertical-align: top;">
-                                    <th style="Margin: 0; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0; padding: 0; text-align: left;">
-                                      <h1 mc:edit="pluglarge2_title" class="text-center plugtitle-large" style="Margin: 0; Margin-bottom: 10px; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 28px; font-weight: 800; line-height: 1.3; margin: 0; margin-bottom: 10px; padding: 0; text-align: center; word-wrap: normal;">Du vil ikke tro hvor noen faktisk kan bo</h1>
-                                      <p class="text-center" mc:edit="pluglarge2_text" style="Margin: 0; Margin-bottom: 10px; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0; margin-bottom: 10px; padding: 0; text-align: center;">This will be the body text of this plug. This will be the body text of this plug. This
+                              <th class="small-12 large-8 columns extra-padding-left-for-mobile extra-padding-right-for-mobile">
+                                <table>
+                                  <tr>
+                                    <th>
+                                      <h1 mc:edit="pluglarge2_title" class="text-center plugtitle-large">Du vil ikke tro hvor noen faktisk kan bo</h1>
+                                      <p class="text-center" mc:edit="pluglarge2_text">This will be the body text of this plug. This will be the body text of this plug. This
                                         will be the body text of this plug.</p>
-                                      <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+                                      <table class="spacer">
                                         <tbody>
-                                          <tr style="padding: 0; text-align: left; vertical-align: top;">
-                                            <td height="8px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 8px; font-weight: normal; hyphens: auto; line-height: 8px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"></td>
+                                          <tr>
+                                            <td height="8px" style="font-size:8px;line-height:8px;"></td>
                                           </tr>
                                         </tbody>
                                       </table>
                                       
-                                      <center style="min-width: 338.66667px; width: 100%;">
-                                        <span mc:hideable="" mc:edit="pluglarge2_simplebutton1" class="simplebutton float-center" align="center" style="border: 1px solid #666; border-radius: 50px; color: #fff; display: inline-block; height: 44px; line-height: 44px; padding-left: 20px; padding-right: 20px; text-align: center; vertical-align: middle;">
+                                      <center>
+                                        <span mc:hideable mc:edit="pluglarge2_simplebutton1" class="simplebutton float-center" align="center">
                                           Se nå
                                         </span>
-                                        <span mc:hideable="" mc:edit="pluglarge2_simplebutton2" class="simplebutton float-center" align="center" style="border: 1px solid #666; border-radius: 50px; color: #fff; display: inline-block; height: 44px; line-height: 44px; padding-left: 20px; padding-right: 20px; text-align: center; vertical-align: middle;">
+                                        &nbsp;
+                                        <span mc:hideable mc:edit="pluglarge2_simplebutton2" class="simplebutton float-center" align="center">
                                           Trailer
                                         </span>
                                       </center>
+
+                                      <table class="spacer">
+                                          <tbody>
+                                            <tr>
+                                              <td height="8px" style="font-size:8px;line-height:8px;"></td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
 
                                     </th>
                                   </tr>
                                 </table>
                               </th>
-                              <th class="large-2 columns show-for-large" style="Margin: 0 auto; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 8px; padding-right: 8px; text-align: left; width: 80.66667px;">
+                              <th class="large-2 columns show-for-large">
                               </th>
                             </tr>
                           </tbody>
@@ -1987,11 +2015,11 @@
                     </tr>
                   </tbody>
                 </table>
-                <!-- Spacer 20px -->
-                <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+                
+                <table class="spacer">
                   <tbody>
-                    <tr style="padding: 0; text-align: left; vertical-align: top;">
-                      <td height="20px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 20px; font-weight: normal; hyphens: auto; line-height: 20px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&nbsp;</td>
+                    <tr>
+                      <td height="20px" style="font-size:20px;line-height:20px;">&nbsp;</td>
                     </tr>
                   </tbody>
                 </table>
@@ -1999,16 +2027,15 @@
             </tr>
           </table>
 
-<!-- Text Section -->
-<table align="center" class="container container--transparent" mc:repeatable="" mc:hideable="" style="Margin: 0 auto; background: none !important; border-collapse: collapse; border-spacing: 0; margin: 0 auto; padding: 0; text-align: inherit; vertical-align: top; width: 580px;">
+<table align="center" class="container container--transparent" mc:repeatable mc:hideable>
   <tbody>
-    <tr style="padding: 0; text-align: left; vertical-align: top;">
-      <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; hyphens: auto; line-height: 1.3; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
-        <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;">
+    <tr>
+      <td>
+        <table class="row">
           <tbody>
-            <tr style="padding: 0; text-align: left; vertical-align: top;">
-              <th class="small-12 first last columns" style="Margin: 0 auto; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 16px; padding-right: 16px; text-align: left;">
-                <p class="text-center" mc:edit="mellomtittel" style="Margin: 0; Margin-bottom: 10px; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0; margin-bottom: 10px; padding: 0; text-align: center;">Her kan det stå en tekst eller mellomtittel</p>
+            <tr>
+              <th class="small-12 first last columns">
+                <p class="text-center" mc:edit="mellomtittel">Her kan det stå en tekst eller mellomtittel</p>
               </th>
             </tr>
           </tbody>
@@ -2018,29 +2045,28 @@
   </tbody>
 </table>
 
-<!-- Plug 4 Posters -->
-          <table mc:repeatable="" mc:hideable="" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;">
-            <tr style="padding: 0; text-align: left; vertical-align: top;">
-              <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; hyphens: auto; line-height: 1.3; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
-                <table align="center" class="float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top;">
+          <table mc:repeatable mc:hideable>
+            <tr>
+              <td>
+                <table align="center" class="float-center">
                   <tbody>
-                    <tr style="padding: 0; text-align: left; vertical-align: top;">
-                      <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; hyphens: auto; line-height: 1.3; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                    <tr>
+                      <td>
 
-                        <table class="row" style="border-collapse: collapse; border-spacing: 0; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;">
+                        <table class="row">
                           <tbody>
-                            <tr style="padding: 0; text-align: left; vertical-align: top;">
-                              <th class="small-6 large-3 columns poster-row reduced-padding-right-for-mobile text-right" valign="middle" style="Margin: 0 auto; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 8px; padding-right: 8px; text-align: right; width: 129px;">
-                                <img mc:edit="sideways_poster-1" src="http://placehold.it/180x270" align="center" class="float-center" alt="Nytt i NRK TV" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: inline-block; float: none; margin: 0 auto; max-width: 100%; outline: none; text-align: center; text-decoration: none; width: auto;">
+                            <tr>
+                              <th class="small-6 large-3 columns poster-row reduced-padding-right-for-mobile text-right" valign="middle">
+                                <img mc:edit="sideways_poster-1" src="http://placehold.it/129x193" align="center" class="float-center" alt="Nytt i NRK TV">
                               </th>
-                              <th class="small-6 large-3 columns poster-row reduced-padding-left-for-mobile" valign="middle" style="Margin: 0 auto; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 8px; padding-right: 8px; text-align: left; width: 129px;">
-                                <img mc:edit="sideways_poster-2" src="http://placehold.it/180x270" align="center" class="float-center" alt="Nytt i NRK TV" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: inline-block; float: none; margin: 0 auto; max-width: 100%; outline: none; text-align: center; text-decoration: none; width: auto;">
+                              <th class="small-6 large-3 columns poster-row reduced-padding-left-for-mobile" valign="middle">
+                                <img mc:edit="sideways_poster-2" src="http://placehold.it/129x193" align="center" class="float-center" alt="Nytt i NRK TV">
                               </th>
-                              <th class="small-6 large-3 columns poster-row text-right reduced-padding-right-for-mobile" valign="middle" style="Margin: 0 auto; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 8px; padding-right: 8px; text-align: right; width: 129px;">
-                                <img mc:edit="sideways_poster-3" src="http://placehold.it/180x270" align="center" class="float-center" alt="Nytt i NRK TV" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: inline-block; float: none; margin: 0 auto; max-width: 100%; outline: none; text-align: center; text-decoration: none; width: auto;">
+                              <th class="small-6 large-3 columns poster-row text-right reduced-padding-right-for-mobile" valign="middle">
+                                <img mc:edit="sideways_poster-3" src="http://placehold.it/129x193" align="center" class="float-center" alt="Nytt i NRK TV">
                               </th>
-                              <th class="small-6 large-3 columns poster-row reduced-padding-left-for-mobile" valign="middle" style="Margin: 0 auto; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 8px; padding-right: 8px; text-align: left; width: 129px;">
-                                <img mc:edit="sideways_poster-4" src="http://placehold.it/180x270" align="center" class="float-center" alt="Nytt i NRK TV" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: inline-block; float: none; margin: 0 auto; max-width: 100%; outline: none; text-align: center; text-decoration: none; width: auto;">
+                              <th class="small-6 large-3 columns poster-row reduced-padding-left-for-mobile" valign="middle">
+                                <img mc:edit="sideways_poster-4" src="http://placehold.it/129x193" align="center" class="float-center" alt="Nytt i NRK TV">
                               </th>
                             </tr>
                           </tbody>
@@ -2050,43 +2076,239 @@
                     </tr>
                   </tbody>
                 </table>
+                
+                <table class="spacer">
+                  <tbody>
+                    <tr>
+                      <td height="10px" style="font-size:10px;line-height:10px;">&nbsp;</td>
+                    </tr>
+                  </tbody>
+                </table>
 
               </td>
             </tr>
           </table>
 
-<!-- Footer -->
-          <table align="center" class="container container--transparent float-center" style="Margin: 0 auto; background: none !important; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 580px;">
-            <tbody>
-              <tr style="padding: 0; text-align: left; vertical-align: top;">
-                <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; hyphens: auto; line-height: 1.3; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+<table align="center" class="container container--transparent" mc:repeatable mc:hideable>
+  <tbody>
+    <tr>
+      <td>
+        <table class="row">
+          <tbody>
+            <tr>
+              <th class="small-12 first last columns">
+                <p class="text-center" mc:edit="mellomtittel">Her kan det stå en tekst eller mellomtittel</p>
+              </th>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-                  <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;">
+<table mc:repeatable mc:hideable>
+  <tr>
+    <td>
+      <table align="center" class="container container--black float-center radius">
+        <tbody>
+          <tr>
+            <td>
+              <table class="spacer">
+                <tbody>
+                  <tr>
+                    <td height="16px" style="font-size:16px;line-height:16px;">&nbsp;</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table class="row">
+                <tbody>
+                  <tr>
+                    <th class="small-4 large-4 columns reduced-padding-right-for-mobile">
+                      <table>
+                        <tr>
+                          <th>
+                            <center>
+                              <img mc:edit="sideways_poster" src="http://placehold.it/167x94" align="center" class="float-center" alt="Nytt i NRK TV">
+                            </center>
+                          </th>
+                        </tr>
+                      </table>
+                    </th>
+                    <th class="small-8 large-8 columns last reduced-padding-left-for-mobile">
+                      <table>
+                        <tr>
+                          <th class="extra-right-padding">
+                            <h3 class="plugtitle-small" mc:edit="sideways_title">Programtittel</h3>
+                            <p mc:edit="sideways_text">This will be the body text of this plug. This will be the body text of this plug. This
+                              will be the body text of this plug.</p>
+                          </th>
+                        </tr>
+                      </table>
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <table class="spacer">
+        <tbody>
+          <tr>
+            <td height="8px" style="font-size:8px;line-height:8px;">&nbsp;</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </td>
+  </tr>
+</table>
+
+<table mc:repeatable mc:hideable class="container--transparent">
+  <tr>
+    <td>      
+      <table align="center" class="container quote-container radius float-center">
+        <tbody>
+          <tr>
+            <td>
+
+              <table class="row collapse">
+                <tbody>
+                  <tr>
+                    <th class="small-12 large-12 columns">
+                      
+                      <table>
+                        <tr>
+                          <td width="30px" valign="middle" class="quote-die-container">
+                            <img mc:edit="terningkast" src="http://thegoldengod.westeurope.cloudapp.azure.com/nyhetsbrev/img/terning-6.png" alt="Omtale"
+                              width="30" height="30" />
+                          </td>
+                          <td valign="middle">
+                            <p class="quote-text--die" mc:edit="review-quote">
+                              «Dette var bra saker. Bra jobba folkens. God serie. Godt arbeid. Veldig spennende. Dette er en placeholder tekst.»
+                              <br>
+                              <span class="quote-source">
+                                Fiskeposten
+                              </span>
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+
+
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table class="spacer">
+        <tbody>
+          <tr>
+            <td height="2px" style="font-size:2px;line-height:2px;">&nbsp;</td>
+          </tr>
+        </tbody>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+
+<table mc:repeatable mc:hideable class="container--transparent">
+  <tr>
+    <td>
+      <table align="center" class="container quote-container radius float-center">
+        <tbody>
+          <tr>
+            <td>
+
+              <table class="row collapse">
+                <tbody>
+                  <tr>
+                    <th class="small-12 large-12 columns">
+
+                      <table class="container quote-container">
+                        <tr>
+                          <td valign="middle">
+                            <p class="quote-text" mc:edit="review-quote-nodie">
+                              «Dette var bra saker. Bra jobba folkens. God serie. Godt arbeid. Veldig spennende. Dette er en placeholder tekst.»
+                              <br>
+                              <span class="quote-source">
+                                Fiskeposten
+                              </span>
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+
+
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+
+      <table class="spacer">
+        <tbody>
+          <tr>
+            <td height="8px" style="font-size:8px;line-height:8px;">&nbsp;</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </td>
+  </tr>
+</table>
+
+<table class="spacer">
+  <tbody>
+    <tr>
+      <td height="16px" style="font-size:16px;line-height:16px;">&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+
+          <table align="center" class="container container--transparent float-center">
+            <tbody>
+              <tr>
+                <td>
+
+                  <table class="row">
                     <tbody>
-                      <tr style="padding: 0; text-align: left; vertical-align: top;">
-                        <th class="small-4 columns" style="Margin: 0 auto; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 16px; text-align: left;">
-                          <table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
-                            <tr style="padding: 0; text-align: left; vertical-align: top;">
-                              <th style="Margin: 0; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0; padding: 0; text-align: left;">
+                      <tr>
+                        <th class="small-4 columns">
+                          <table>
+                            <tr>
+                              <th>
                               </th>
                             </tr>
                           </table>
                         </th>
-                        <th class="small-4 columns" style="Margin: 0 auto; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 16px; text-align: left;">
-                          <table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
-                            <tr style="padding: 0; text-align: left; vertical-align: top;">
-                              <th style="Margin: 0; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0; padding: 0; text-align: left;">
-                                <center style="min-width: 580px; width: 100%;">
-                                  <img src="http://thegoldengod.westeurope.cloudapp.azure.com/nyhetsbrev/img/nrklogo-footer@2x.png" width="65" height="20" class="float-center" align="center" alt="NRK TV" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: block; float: none; margin: 0 auto; max-width: 100%; outline: none; text-align: center; text-decoration: none; width: auto;">
+                        <th class="small-4 columns">
+                          <table>
+                            <tr>
+                              <th>
+                                <center>
+                                  <img src="http://thegoldengod.westeurope.cloudapp.azure.com/nyhetsbrev/img/nrklogo-footer@2x.png" width="65" height="20"
+                                    class="float-center" align="center" alt="NRK TV" style="max-width:65px">
                                 </center>
                               </th>
                             </tr>
                           </table>
                         </th>
-                        <th class="small-4 columns" style="Margin: 0 auto; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 16px; text-align: left;">
-                          <table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
-                            <tr style="padding: 0; text-align: left; vertical-align: top;">
-                              <th style="Margin: 0; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0; padding: 0; text-align: left;">
+                        <th class="small-4 columns">
+                          <table>
+                            <tr>
+                              <th>
                               </th>
                             </tr>
                           </table>
@@ -2095,19 +2317,18 @@
                     </tbody>
                   </table>
 
-                  <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;">
+                  <table class="row">
                     <tbody>
-                      <tr style="padding: 0; text-align: left; vertical-align: top;">
-                        <th class="small-12 columns first last" style="Margin: 0 auto; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 16px; padding-right: 16px; text-align: left;">
+                      <tr>
+                        <th class="small-12 columns first last">
 
-                          <p class="text-center nrktv-footer" style="Margin: 0; Margin-bottom: 10px; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 13px; font-weight: normal; line-height: 1.3; margin: 0; margin-bottom: 10px; padding: 0; text-align: center;">
-                            <a href="mailto:nrktv@nrk.no" style="color: #66d1f2; text-decoration: none;">Kontakt oss</a> |
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdtQsGN5eIA0q-mZOeaebBj_oFbZtonubl2FEVdFD2p4AOc1A/viewform" style="color: #66d1f2; text-decoration: none;">Gi tilbakemelding</a> |
-                            <a href="*|UNSUB|*" style="color: #66d1f2; text-decoration: none;">Avmelding</a>
+                          <p class="text-center nrktv-footer">
+                            <a href="mailto:nrktv@nrk.no">Kontakt oss</a> |
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdtQsGN5eIA0q-mZOeaebBj_oFbZtonubl2FEVdFD2p4AOc1A/viewform">Gi tilbakemelding</a> |
+                            <a href="*|UNSUB|*">Avmelding</a>
                           </p>
 
                         </th>
-                        <th class="expander" style="Margin: 0; color: #f0f0f0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th>
                       </tr>
                     </tbody>
                   </table>
@@ -2116,15 +2337,15 @@
               </tr>
             </tbody>
           </table>
-          <!-- END Footer -->
+          
 
-          <!-- END main content -->
+          
         </center>
       </td>
     </tr>
   </table>
 
-
 </body>
 </html>
+
 

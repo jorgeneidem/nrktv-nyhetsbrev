@@ -1,27 +1,18 @@
           <table mc:repeatable mc:hideable>
             <tr>
               <td>
-                <table align="center" class="container container--black radius float-center">
+                <table align="center" class="container container--white radius float-center">
                   <tbody>
                     <tr>
                       <td>
-                        <table class="row collapse">
-                          <tbody>
-                            <tr>
-                              <th class="small-12 large-12 columns">
-                                <table>
-                                  <tr>
-                                    <th>
-                                      <center>
-                                        <img mc:edit="pluglarge2_image" src="http://placehold.it/580x320" align="center" class="float-center radius-top">
-                                      </center>
-                                    </th>
-                                  </tr>
-                                </table>
-                              </th>
-                            </tr>
-                          </tbody>
-                        </table>
+
+                          <table class="spacer">
+                              <tbody>
+                                <tr>
+                                  <td height="20px" style="font-size:20px;line-height:20px;">&nbsp;</td>
+                                </tr>
+                              </tbody>
+                            </table>
                         
                         <table class="row">
                           <tbody>
@@ -31,10 +22,9 @@
                               <th class="small-12 large-8 columns extra-padding-left-for-mobile extra-padding-right-for-mobile">
                                 <table>
                                   <tr>
-                                    <th>
-                                      <h1 mc:edit="pluglarge2_title" class="text-center plugtitle-large">Du vil ikke tro hvor noen faktisk kan bo</h1>
-                                      <p class="text-center" mc:edit="pluglarge2_text">This will be the body text of this plug. This will be the body text of this plug. This
-                                        will be the body text of this plug.</p>
+                                    <th class="text-center black-text dm-text-area">
+                                      <h2 mc:edit="dm_title" class="text-center plugtitle-large black-text">Hei *|FNAME|*</h2>
+                                      <p class="text-center black-text bold-text" mc:edit="dm_intro">Har du fortsatt lyst til å vite hva som kommer av gode serier, dokumentarer og filmer i NRK TV fremover?</p>
                                       <table class="spacer">
                                         <tbody>
                                           <tr>
@@ -42,21 +32,13 @@
                                           </tr>
                                         </tbody>
                                       </table>
-                                      
-                                      <center>
-                                        <span mc:hideable mc:edit="pluglarge2_simplebutton1" class="simplebutton float-center" align="center">
-                                          Se nå
-                                        </span>
-                                        &nbsp;
-                                        <span mc:hideable mc:edit="pluglarge2_simplebutton2" class="simplebutton float-center" align="center">
-                                          Trailer
-                                        </span>
-                                      </center>
-
+                                      <span class="text-center black-text" mc:edit="dm_text" mc:repeatable>
+                                          Vi ønsker å styrke ditt personvern og knytter derfor nyhetsbrevet til innlogging i NRK TV. For å fortsette å motta nyhetsbrev må du derfor registrere deg her:
+                                      </span>
                                       <table class="spacer">
                                           <tbody>
                                             <tr>
-                                              <td height="8px" style="font-size:8px;line-height:8px;"></td>
+                                              <td height="20px" style="font-size:20px;line-height:20px;">&nbsp;</td>
                                             </tr>
                                           </tbody>
                                         </table>
@@ -83,6 +65,7 @@
                     </tr>
                   </tbody>
                 </table>
+
               </td>
             </tr>
           </table>

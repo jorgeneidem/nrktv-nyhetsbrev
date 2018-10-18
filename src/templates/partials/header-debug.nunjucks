@@ -38,34 +38,22 @@
                     <tbody>
                       <tr>
                         <th class="small-3 large-4 columns" valign="middle">
-                          <table>
-                            <tr>
-                              <td class="show-for-large">
-                                <span mc:edit="recipientfname">Hei *|FNAME|*</span>
-                              </td>
-                            </tr>
-                          </table>
+                          hei
                         </th>
                         <th class="small-6 large-4 columns">
                           <table>
                             <tr>
                               <td>
                                 <center>
-                                  <img src="http://thegoldengod.westeurope.cloudapp.azure.com/nyhetsbrev/img/nrklogo-header@2x.png" height="32" width="115"
-                                    alt="NRK TV logo" align="center" class="float-center">
+                                  <img src="http://thegoldengod.westeurope.cloudapp.azure.com/nyhetsbrev/img/nrklogo-header@2x.png" width="65" height="20"
+                                    alt="NRK TV logo" align="center" class="float-center" style="max-width:65px;">
                                 </center>
                               </td>
                             </tr>
                           </table>
                         </th>
                         <th class="small-3 large-4 columns" valign="middle">
-                          <table>
-                            <tr>
-                              <td class="text-right show-for-large">
-                                <span mc:edit="intro">Tekst og emoji</span>
-                              </td>
-                            </tr>
-                          </table>
+                          hei
                         </th>
                       </tr>
                     </tbody>

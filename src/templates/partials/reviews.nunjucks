@@ -1,0 +1,52 @@
+<table mc:repeatable mc:hideable class="container--transparent">
+  <tr>
+    <td>      
+      <table align="center" class="container quote-container radius float-center">
+        <tbody>
+          <tr>
+            <td>
+
+              <table class="row collapse">
+                <tbody>
+                  <tr>
+                    <th class="small-12 large-12 columns">
+                      
+                      <table>
+                        <tr>
+                          <td width="30px" valign="middle" class="quote-die-container">
+                            <img mc:edit="terningkast" src="http://thegoldengod.westeurope.cloudapp.azure.com/nyhetsbrev/img/terning-6.png" alt="Omtale"
+                              width="30" height="30" />
+                          </td>
+                          <td valign="middle">
+                            <p class="quote-text--die" mc:edit="review-quote">
+                              «Dette var bra saker. Bra jobba folkens. God serie. Godt arbeid. Veldig spennende. Dette er en placeholder tekst.»
+                              <br>
+                              <span class="quote-source">
+                                Fiskeposten
+                              </span>
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+
+
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table class="spacer">
+        <tbody>
+          <tr>
+            <td height="2px" style="font-size:2px;line-height:2px;">&nbsp;</td>
+          </tr>
+        </tbody>
+      </table>
+      
+    </td>
+  </tr>
+</table>

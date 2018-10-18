@@ -1,0 +1,49 @@
+<table mc:repeatable mc:hideable class="container--transparent">
+  <tr>
+    <td>
+      <table align="center" class="container quote-container radius float-center">
+        <tbody>
+          <tr>
+            <td>
+
+              <table class="row collapse">
+                <tbody>
+                  <tr>
+                    <th class="small-12 large-12 columns">
+
+                      <table class="container quote-container">
+                        <tr>
+                          <td valign="middle">
+                            <p class="quote-text" mc:edit="review-quote-nodie">
+                              «Dette var bra saker. Bra jobba folkens. God serie. Godt arbeid. Veldig spennende. Dette er en placeholder tekst.»
+                              <br>
+                              <span class="quote-source">
+                                Fiskeposten
+                              </span>
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+
+
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+
+      <table class="spacer">
+        <tbody>
+          <tr>
+            <td height="8px" style="font-size:8px;line-height:8px;">&nbsp;</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </td>
+  </tr>
+</table>

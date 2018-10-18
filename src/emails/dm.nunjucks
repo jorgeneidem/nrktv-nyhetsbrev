@@ -1,0 +1,12 @@
+{% include "partials/header.nunjucks" %}
+
+{% include "partials/dm-area.nunjucks" %}
+
+{% include "partials/text.nunjucks" %}
+
+{% include "partials/plug-sideways.nunjucks" %}
+
+{% include "partials/spacer-16.nunjucks" %}
+
+{% include "partials/footer.nunjucks" %}
+

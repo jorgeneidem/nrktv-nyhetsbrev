@@ -1,4 +1,3 @@
-<!-- Plug 4 Posters -->
           <table mc:repeatable mc:hideable>
             <tr>
               <td>
@@ -11,22 +10,30 @@
                           <tbody>
                             <tr>
                               <th class="small-6 large-3 columns poster-row reduced-padding-right-for-mobile text-right" valign="middle">
-                                <img mc:edit="sideways_poster-1" src="http://placehold.it/180x270" align="center" class="float-center" alt="Nytt i NRK TV">
+                                <img mc:edit="sideways_poster-1" src="http://placehold.it/129x193" align="center" class="float-center" alt="Nytt i NRK TV">
                               </th>
                               <th class="small-6 large-3 columns poster-row reduced-padding-left-for-mobile" valign="middle">
-                                <img mc:edit="sideways_poster-2" src="http://placehold.it/180x270" align="center" class="float-center" alt="Nytt i NRK TV">
+                                <img mc:edit="sideways_poster-2" src="http://placehold.it/129x193" align="center" class="float-center" alt="Nytt i NRK TV">
                               </th>
                               <th class="small-6 large-3 columns poster-row text-right reduced-padding-right-for-mobile" valign="middle">
-                                <img mc:edit="sideways_poster-3" src="http://placehold.it/180x270" align="center" class="float-center" alt="Nytt i NRK TV">
+                                <img mc:edit="sideways_poster-3" src="http://placehold.it/129x193" align="center" class="float-center" alt="Nytt i NRK TV">
                               </th>
                               <th class="small-6 large-3 columns poster-row reduced-padding-left-for-mobile" valign="middle">
-                                <img mc:edit="sideways_poster-4" src="http://placehold.it/180x270" align="center" class="float-center" alt="Nytt i NRK TV">
+                                <img mc:edit="sideways_poster-4" src="http://placehold.it/129x193" align="center" class="float-center" alt="Nytt i NRK TV">
                               </th>
                             </tr>
                           </tbody>
                         </table>
 
                       </td>
+                    </tr>
+                  </tbody>
+                </table>
+                
+                <table class="spacer">
+                  <tbody>
+                    <tr>
+                      <td height="10px" style="font-size:10px;line-height:10px;">&nbsp;</td>
                     </tr>
                   </tbody>
                 </table>

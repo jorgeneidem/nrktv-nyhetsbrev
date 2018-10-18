@@ -4,11 +4,11 @@
 
 {% include "partials/text.nunjucks" %}
 
-{% include "partials/posters-4x.nunjucks" %}
+{% include "partials/posters-2x.nunjucks" %}
 
 {% include "partials/text.nunjucks" %}
 
-{% include "partials/plug-sideways.nunjucks" %}
+{% include "partials/plug-sideways-debug.nunjucks" %}
 
 {% include "partials/reviews.nunjucks" %}
 
