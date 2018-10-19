@@ -6,32 +6,26 @@ Modulene i nyhetsbrevet, som for eksempel header / stor plugg / footer, er split
 📰 📧 ✂️ 📋 🐵
 
 ## Dette brukes 
-* CSS-versjonen av Foundation for emails 2 
-  
+* CSS-versjonen av Foundation for emails 2   
 * Browser-sync
-
 * Gulp
 * Nunjucks
 * _og mer!_
 
 ## Installere
-$ `npm install`
+$ `npm install` 
 
 ## Hvordan
 
 For å jobbe kjør
 
-$ `npm start`
+$ `npm start` eller  $ `gulp`
 
-Åpne `localhost:8000` i nettleseren
+I editoren, åpne `src/emails/index.nunjucks` 
 
-Åpne `src/emails/index.nunjucks` i editoren din
-
-Inkludér det du vil ha fra `src/templates/partials`
+Inkludér partials du vil ha fra `src/templates/partials`
 
 For eksempel:
-
-
 
 
 ```
@@ -48,9 +42,6 @@ For eksempel:
 {% include "partials/footer.nunjucks" %} 
 ```
 
-Lagre filen og følg med på localhost:8000 hvor Browser-sync sørger for at du ser templaten din umiddelbart.
+Lagre filen og følg med i nettleseren hvor Browser-sync sørger for at du ser endringene i templaten umiddelbart.
 
-## For å bygge:
-$ `gulp`
-
-Så ligger ferdig template i `/build/`
+Ferdig HTML-template med inline CSS ligger i  `/build/`
