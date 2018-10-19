@@ -62,7 +62,7 @@
                           <table>
                             <tr>
                               <td class="text-right show-for-large">
-                                <span mc:edit="intro">Tekst og emoji</span>
+                                <span mc:edit="intro">Hei *|FNAME|*, her kommer et nyhetsbrev 🤡 </span>
                               </td>
                             </tr>
                           </table>

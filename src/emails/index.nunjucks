@@ -1,21 +1,7 @@
-{% include "partials/header.nunjucks" %}
+{% include "partials/header-debug.nunjucks" %}
 
 {% include "partials/plug-large.nunjucks" %}
 
 {% include "partials/text.nunjucks" %}
 
-{% include "partials/posters-4x.nunjucks" %}
-
-{% include "partials/text.nunjucks" %}
-
-{% include "partials/plug-sideways.nunjucks" %}
-
-{% include "partials/reviews.nunjucks" %}
-
-{% include "partials/reviews-nodie.nunjucks" %}
-
-{% include "partials/spacer-16.nunjucks" %}
-
-{% include "partials/footer.nunjucks" %}
-
-
+{% include "partials/footer-debug.nunjucks" %}

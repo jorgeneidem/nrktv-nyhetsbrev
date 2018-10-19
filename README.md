@@ -1,7 +1,9 @@
 
 # NRK TV Nyhetsbrev template  
 
-Modulene i nyhetsbrevet, som for eksempel header / stor plugg / footer, er splittet opp i nunjucks-partials. Kombinér modulene du ønsker, og Gulp rendrer nunjucksene sammen og inliner CSS'en og spytter ut ferdige HTML-filer som kan pastes inn i Mailchimp.
+Modulene i nyhetsbrevet, som for eksempel header / stor plugg / footer, er splittet opp i nunjucks-partials. Kombinér modulene du ønsker, og Gulp rendrer nunjucksene sammen til én HTML-fil. 
+
+Når du er fornøyd lar du gulp inline CSS'en, da får du en ferdig HTML-template som du kan paste inn i Mailchimp.
 
 📰 📧 ✂️ 📋 🐵
 
@@ -44,4 +46,8 @@ For eksempel:
 
 Lagre filen og følg med i nettleseren hvor Browser-sync sørger for at du ser endringene i templaten umiddelbart.
 
-Ferdig HTML-template med inline CSS ligger i  `/build/`
+Når du er klar til å flytte over i Mailchimp, kjør  
+
+$ `gulp inlinecss`
+
+Da får HTML-filene i `/build/` inlined CSS.

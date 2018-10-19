@@ -30,35 +30,40 @@
             </tr>
           </table>
 
-          <table align="center" class="header float-center">
-            <tbody>
-              <tr>
-                <td>
-                  <table class="row">
-                    <tbody>
-                      <tr>
-                        <th class="small-3 large-4 columns" valign="middle">
-                          hei
-                        </th>
-                        <th class="small-6 large-4 columns">
-                          <table>
-                            <tr>
-                              <td>
-                                <center>
-                                  <img src="http://thegoldengod.westeurope.cloudapp.azure.com/nyhetsbrev/img/nrklogo-header@2x.png" width="65" height="20"
-                                    alt="NRK TV logo" align="center" class="float-center" style="max-width:65px;">
-                                </center>
-                              </td>
-                            </tr>
-                          </table>
-                        </th>
-                        <th class="small-3 large-4 columns" valign="middle">
-                          hei
-                        </th>
-                      </tr>
-                    </tbody>
-                  </table>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+          <table align="center" class="container header float-center">
+              <tbody>
+                <tr>
+                  <td>
+                    <table class="row">
+                      <tbody>
+                        <tr>
+                          <th class="small-12 large-12 columns first last">
+                            <table>
+                              <tr>
+                                <th>
+                                  <center data-parsed="">
+                                    <img src="http://thegoldengod.westeurope.cloudapp.azure.com/nyhetsbrev/img/nrklogo-header@2x.png" height="32" width="115" id="NRKTVlogo" alt="NRK TV logo" style="max-width:115px;max-height:32px;" align="center" class="float-center">
+                                      <table align="center" class="menu text-center float-center">
+                                        <tr>
+                                          <td>
+                                            <table>
+                                              <tr>
+                                                <th class="menu-item float-center" style="color:#B2BBC0;font-size:15px;">Hei *|FNAME|*, nå er høsten her, tiden for gode serier 🍂 📺 </th>
+                                              </tr>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </center>
+                                  </th>
+                                  <th class="expander"></th>
+                              </tr>
+                            </table>
+                          </th>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>

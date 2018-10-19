@@ -2,15 +2,14 @@ var gulp = require('gulp');
 var gutil = require('gulp-util');
 var nunjucksRender = require('gulp-nunjucks-render');
 var browserSync = require('browser-sync').create();
+var inlineCss = require('gulp-inline-css');
 
 // Static Server + watching html files
-gulp.task('serve', function() {
-
+gulp.task('serve', function(done) {
     browserSync.init({
         server: "./build"
     });
-
-    gulp.watch("build/*.html").on('change', browserSync.reload);
+    done();
 });
 
 gulp.task('nunjucks', function() {
@@ -23,8 +22,6 @@ gulp.task('nunjucks', function() {
         )
         .pipe(gulp.dest('build/'));
 });
-
-var inlineCss = require('gulp-inline-css');
 
 gulp.task('inlinecss', function() {
     return gulp.src('build/*.html')
@@ -43,10 +40,19 @@ var filesToWatch = [
     'src/templates/**/*.nunjucks'
 ]
 
-gulp.task('watch', function(done) {
-    gulp.watch(filesToWatch, gulp.series('nunjucks'));
-    console.log("Watching files...");
+gulp.task('reload', function(done){
+    browserSync.reload();
     done();
 });
 
-gulp.task('default', gulp.series('nunjucks','watch','serve'))
+gulp.task('watch', function() {
+    
+    var watcher = gulp.watch(filesToWatch, gulp.series('nunjucks', 'reload'));
+    watcher.on('change', function(path) {
+        console.log('File' + path + ' was changed, nunjucking...');
+    });
+
+
+});
+
+gulp.task('default', gulp.series('serve','watch'));

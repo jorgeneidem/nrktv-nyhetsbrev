@@ -26,13 +26,13 @@
                         <table class="row">
                           <tbody>
                             <tr>
-                              <th class="large-2 columns show-for-large">
+                              <th class="small-1 large-2 columns">
                               </th>
-                              <th class="small-12 large-8 columns extra-padding-left-for-mobile extra-padding-right-for-mobile">
+                              <th class="small-10 large-8 columns extra-padding-left-for-mobile extra-padding-right-for-mobile">
                                 <table>
                                   <tr>
                                     <th>
-                                      <h1 mc:edit="pluglarge2_title" class="text-center plugtitle-large">Du vil ikke tro hvor noen faktisk kan bo</h1>
+                                      <h1 mc:edit="pluglarge2_title" class="text-center plugtitle-large">Du vil ikke tru kor nokon faktisk vil bu</h1>
                                       <p class="text-center" mc:edit="pluglarge2_text">This will be the body text of this plug. This will be the body text of this plug. This
                                         will be the body text of this plug.</p>
                                       <table class="spacer">
@@ -65,7 +65,7 @@
                                   </tr>
                                 </table>
                               </th>
-                              <th class="large-2 columns show-for-large">
+                              <th class="small-1 large-2 columns">
                               </th>
                             </tr>
                           </tbody>
