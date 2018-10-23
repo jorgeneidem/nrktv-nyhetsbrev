@@ -1,7 +1,7 @@
 
-# NRK TV Nyhetsbrev template  
+# NRK TV Nyhetsbrev mal  
 
-Modulene i nyhetsbrevet, som for eksempel header / stor plugg / footer, er splittet opp i nunjucks-partials. Kombinér modulene du ønsker, og Gulp rendrer nunjucksene sammen til én HTML-fil. 
+Modulene i nyhetsbrevet er splittet opp i nunjucks-partials. Kombinér modulene som du ønsker, og Gulp rendrer nunjucksene sammen til én HTML-fil. 
 
 Når du er fornøyd lar du gulp inline CSS'en, da får du en ferdig HTML-template som du kan paste inn i Mailchimp.
 
@@ -27,6 +27,8 @@ I editoren, åpne `src/emails/index.nunjucks`
 
 Inkludér partials du vil ha fra `src/templates/partials`
 
+Pass på at `header.nunjucks` er øverst og `footer.nunjucks` er nederst.
+
 For eksempel:
 
 
@@ -48,6 +50,6 @@ Lagre filen og følg med i nettleseren hvor Browser-sync sørger for at du ser e
 
 Når du er klar til å flytte over i Mailchimp, kjør  
 
-$ `gulp inlinecss`
+$ `gulp inline`
 
 Da får HTML-filene i `/build/` inlined CSS.

@@ -17,9 +17,9 @@
                         <table class="row">
                           <tbody>
                             <tr>
-                              <th class="large-2 columns show-for-large">
+                              <th class="small-1 large-2 columns">
                               </th>
-                              <th class="small-12 large-8 columns">
+                              <th class="small-10 large-8 columns">
                                 <table>
                                   <tr>
                                     <th class="text-center black-text dm-text-area">
@@ -47,7 +47,7 @@
                                   </tr>
                                 </table>
                               </th>
-                              <th class="large-2 columns show-for-large">
+                              <th class="small-1 large-2 columns">
                               </th>
                             </tr>
                           </tbody>

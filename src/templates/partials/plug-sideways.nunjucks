@@ -15,16 +15,10 @@
               <table class="row">
                 <tbody>
                   <tr>
-                    <th class="small-4 large-4 columns">
-                      <table>
-                        <tr>
-                          <th>
-                            <center>
-                              <img mc:edit="sideways_poster" src="http://placehold.it/167x94" align="center" class="float-center" alt="Nytt i NRK TV">
-                            </center>
-                          </th>
-                        </tr>
-                      </table>
+                    <th class="small-4 large-4 columns first">
+                      <center>
+                        <img mc:edit="sideways_poster" src="http://placehold.it/267x94" align="center" class="float-center sideways_image" alt="Nytt i NRK TV">
+                      </center>
                     </th>
                     <th class="small-8 large-8 columns last">
                       <table>

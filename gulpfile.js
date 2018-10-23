@@ -56,3 +56,4 @@ gulp.task('watch', function() {
 });
 
 gulp.task('default', gulp.series('serve','watch'));
+gulp.task('inline', gulp.series('nunjucks','inlinecss'));

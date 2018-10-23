@@ -1506,14 +1506,9 @@
       height: auto !important;
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
-      box-sizing: border-box;
-      /*
-      padding-left: 16px !important;
-      padding-right: 16px !important;
-      */
+      box-sizing: border-box;  
       padding-left: 0px !important;
       padding-right: 0px !important;
-
     }
     table.body .columns .column,
     table.body .columns .columns,
@@ -1835,24 +1830,27 @@
     display: inline-block;
   }
   
-  .poster-block {
-    display: inline-block;
-  }
-
   .nrktv-footer {
     font-size: 13px;
   }
 
-  /*
-
-  td {
-    border: 1px salmon solid;
+  .intro-text {
+    color:#B2BBC0;
+    font-size:15px;
   }
 
-  th {
-    border: 1px yellow solid;
+  @media only screen and (max-width: 596px) {
+    .poster-row img {
+      margin-right:2px !important;
+      margin-left:2px !important;
+    }
+
+    .sideways_image {
+      max-width: 90px !important;
+    }
+
   }
 
-  */
+  /* td, th { border: 1px salmon solid; } */
 
   </style>

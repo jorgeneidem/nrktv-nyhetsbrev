@@ -48,7 +48,7 @@
                                           <td>
                                             <table>
                                               <tr>
-                                                <th class="menu-item float-center" style="color:#B2BBC0;font-size:15px;">Hei *|FNAME|*, nå er høsten her, tiden for gode serier 🍂 📺 </th>
+                                                <th class="menu-item float-center intro-text" mc:edit="intro">Hei *|FNAME|*, nå er høsten her, tiden for gode serier 🍂 📺 </th>
                                               </tr>
                                             </table>
                                           </td>
