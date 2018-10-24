@@ -75,6 +75,43 @@
 
                         {% include "partials/review-without-dice.nunjucks" %}
 
+                        <table class="row" mc:hidable mc:repeatable>
+                          <tbody>
+                            <tr>
+                              <th class="small-1 large-1 columns">
+                                </th>
+                              <th class="small-5 large-5 columns">
+                                <table>
+                                  <tr>
+                                    <th>
+                                      <center data-parsed=""> <img mc:edit="gallery_img-1" src="http://placehold.it/250x150" align="center" class="float-center" style="margin-right:1px;"> </center>
+                                    </th>
+                                  </tr>
+                                </table>
+                              </th>
+                              <th class="small-5 large-5 columns">
+                                  <table>
+                                    <tr>
+                                      <th>
+                                        <center data-parsed=""> <img mc:edit="gallery_img-2" src="http://placehold.it/250x150" align="center" class="float-center" style="margin-left:1px;"> </center>
+                                      </th>
+                                    </tr>
+                                  </table>
+                                </th>
+                              <th class="small-1 large-1 columns">
+                                </th>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <table class="spacer">
+                          <tbody>
+                            <tr>
+                              <td height="20px" style="font-size:20px;line-height:20px;">&nbsp;</td>
+                            </tr>
+                          </tbody>
+                        </table>
+
 
                       </td>
                     </tr>
@@ -88,6 +125,7 @@
                     </tr>
                   </tbody>
                 </table>
+
               </td>
             </tr>
           </table>

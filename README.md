@@ -17,6 +17,11 @@ Når du er fornøyd lar du gulp inline CSS'en, da får du en ferdig HTML-templat
 ## Installere
 $ `npm install` 
 
+Hvis du har for gammel versjon av Gulp globalt installert må du fjerne din globale gulp før installasjon: 
+
+$ `npm rm -g gulp`
+
+
 ## Hvordan
 
 For å jobbe kjør

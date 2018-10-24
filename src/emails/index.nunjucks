@@ -2,7 +2,17 @@
 
 {% include "partials/dm-area.nunjucks" %}
 
-{% include "partials/plug-large.nunjucks" %}
+{% include "partials/plug-large-reviews.nunjucks" %}
+
+{% include "partials/text.nunjucks" %}
+
+{% include "partials/posters-4x.nunjucks" %}
+
+{% include "partials/text.nunjucks" %}
+
+{% include "partials/plug-large-reviews.nunjucks" %}
+
+{% include "partials/plug-sideways.nunjucks" %}
 
 {% include "partials/text.nunjucks" %}
 
@@ -11,8 +21,6 @@
 {% include "partials/text.nunjucks" %}
 
 {% include "partials/posters-4x.nunjucks" %}
-
-{% include "partials/plug-sideways.nunjucks" %}
 
 {% include "partials/spacer-16.nunjucks" %}
 
